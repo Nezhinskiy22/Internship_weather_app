@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0a99e4ccd2.js"></script>
+    <title>SK Internship Weather App</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="result">
+                <div class="search">
+                    <input type="text" name="" id="main-search" autocomplete="off" class="search-box" placeholder="Start typing to search...">
+                    <button class="search-button"><i class="fa fa-search"></i></button>
+                    <div class="result-dropdown">
+                        <div class="not-found">City not found, please try to change your search query</div>
+                        <ul class="match-list">
+                        </ul>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="result-card-footer">
+                        <div class="weather-icon">
+                            <img src="images/image 1.png" alt="">
+                        </div>
+                        <div class="block-1">
+                            <div class="temperature">
+                                +23&deg;C
+                            </div>
+                            <div class="weather">
+                                <p class="precipation">Drizzle</p>
+                                <p class="description">Light intensity drizzle</p>
+                            </div>
+                        </div>
+                        <div class="block-2">
+                            <div class="place">Odessa, Ukraine</div>
+                            <div class="date">10 March 2020</div>
+                        </div>
+                    </div>
+                    <div class="hr-divider"></div>
+                    <div class="temp-records">
+                        <div class="min-temp">
+                            <p class="temp-header">Min</p>
+                            <p class="temp-degree below-zero">-33°C</p>
+                        </div>
+                        <div class="vr-divider"></div>
+                        <div class="max-temp">
+                            <p class="temp-header">Max</p>
+                            <p class="temp-degree above-zero">+33°C</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="city-title">
+                <h3>Check the weather in most popular cities in <br> the world</h3>
+            </div>
+            <div class="city-cards">
+                <div class="city">
+                    <img src="images/City_1.png" alt="New York">
+                    <button class="city-button" value="New York">New York</button>
+                </div>
+                <div class="city">
+                    <img src="images/City_2.png" alt="London">
+                    <button class="city-button" value="London">London</button>
+                </div>
+                <div class="city">
+                    <img src="images/City_3.png" alt="Dubai">
+                    <button class="city-button" value="Dubai">Dubai</button>
+                </div>
+                <div class="city">
+                    <img src="images/City_4.png" alt="Paris">
+                    <button class="city-button" value="Paris">Paris</button>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="faq-title">
+                    <h3>Frequently Asked Questions</h3>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq-1" class="faq-input">
+                    <label class="faq-question" for="faq-1">
+                        Question 1
+                   </label>
+                    <div class="faq-text">
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the
+                            master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq-2" class="faq-input">
+                    <label class="faq-question" for="faq-2">
+                        Question 2
+                   </label>
+                    <div class="faq-text">
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the
+                            master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq-3" class="faq-input">
+                    <label class="faq-question" for="faq-3">
+                        Question 3
+                   </label>
+                    <div class="faq-text">
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the
+                            master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq-4" class="faq-input">
+                    <label class="faq-question" for="faq-4">
+                        Question 4
+                   </label>
+                    <div class="faq-text">
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the
+                            master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Vitaliy Nezhinskiy-<span id="currentYear">2020</span></p>
+        </footer>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
